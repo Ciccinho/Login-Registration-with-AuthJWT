@@ -1,0 +1,24 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .user-profile {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  

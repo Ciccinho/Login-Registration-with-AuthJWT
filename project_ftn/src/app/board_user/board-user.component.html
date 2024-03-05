@@ -1,0 +1,22 @@
+<div class="col-md-12">
+    <div class="container" *ngIf="user">
+        <header class="user-profile">
+            <h2>USERNAME: {{user.email}}</h2>
+            <img id="profile-img" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" class="profile-img-card"/>
+            <p>ID: {{user.id}}</p>
+            <p>NOME: {{user.nome}}</p>
+            <p>COGNOME: {{user.cognome}}</p>
+            <p>EMAIL: {{user.email}}</p>
+            <p>ROLE: {{user.role}}</p>
+        </header>
+    </div>
+    <div class="container" *ngIf="!user">
+        <h1 class="text-center">Non sei Loggato: </h1>
+        <h3 class="text-center">effettua il login per continuare </h3>
+        <h3 class="text-center">oppure registrati </h3>
+        <div class="text-center">
+            <a routerLink="/login">Login</a> |
+            <a routerLink="/register">Registrati</a>
+        </div>
+    </div>
+</div>
