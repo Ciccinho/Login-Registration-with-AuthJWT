@@ -1,5 +1,6 @@
 # Login-Registration-with-AuthJWT
 Frontend e Backend di una pagina web per la registrazione, login e visione dei dati personali tramite autenticazione token JWT.
+Funzuonamento implementato in locale.
 
 # Frontend
 Realizzato con angular 16, file essenziali per la comunicazione tra frontend e backend presenti nella cartella "_service" sono: 
